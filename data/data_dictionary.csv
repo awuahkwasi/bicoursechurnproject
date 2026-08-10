@@ -1,0 +1,35 @@
+Variable,Type,Description,Value_Range
+customer_id,Categorical,Unique customer identifier,CUST-00001 to CUST-00850
+age,Integer,Customer age in years,18 - 74
+gender,Categorical,Customer gender,"Male, Female"
+location,Categorical,Geographic location type,"Urban, Suburban, Rural"
+marital_status,Categorical,Marital status,"Single, Married, Divorced"
+dependents,Integer,Number of dependents,0 - 5
+education_level,Categorical,Highest education level,"High School, Bachelor, Master, PhD"
+tenure_months,Integer,Months as customer,1 - 72
+contract_type,Categorical,Service contract type,"Month-to-Month, One Year, Two Year"
+payment_method,Categorical,Payment method,"Electronic, Credit Card, Bank Transfer, Mailed Check"
+paperless_billing,Binary,Uses paperless billing,"Yes, No"
+monthly_charges,Continuous,Monthly service charges in euros,€20 - €150
+total_charges,Continuous,Total charges to date in euros,Calculated from tenure × monthly
+phone_service,Binary,Has phone service,"Yes, No"
+multiple_lines,Binary,Has multiple phone lines,"Yes, No"
+internet_service,Categorical,Internet service type,"DSL, Fiber, No"
+online_security,Binary,Has online security service,"Yes, No"
+online_backup,Binary,Has online backup service,"Yes, No"
+device_protection,Binary,Has device protection,"Yes, No"
+tech_support,Binary,Has tech support service,"Yes, No"
+streaming_tv,Binary,Has streaming TV service,"Yes, No"
+streaming_movies,Binary,Has streaming movies service,"Yes, No"
+data_usage_gb,Continuous,Monthly data usage in GB,0 - 500 GB
+call_duration_minutes,Continuous,Average monthly call duration,0 - 2000 minutes
+customer_service_calls,Integer,Number of service calls per month,0 - 10
+late_payments,Integer,Late payments in last 6 months,0 - 6
+payment_failures,Integer,Payment failures count,0 - 5
+contract_renewal_eligible,Binary,Eligible for contract renewal,"Yes, No"
+avg_monthly_download_gb,Continuous,Average monthly downloads in GB,0 - 300 GB
+avg_monthly_upload_gb,Continuous,Average monthly uploads in GB,0 - 90 GB
+customer_satisfaction_score,Integer,Satisfaction rating (1-5),1 - 5
+nps_score,Integer,Net Promoter Score,-100 to +100
+last_interaction_days,Integer,Days since last customer interaction,0 - 365
+churn,Binary (Target),Customer churned (left service),"Yes, No"

@@ -388,6 +388,7 @@ def render_agent_tab():
 
 def main():
     st.title("📉 Customer Churn Prediction — AI Agent & Dashboard")
+    st.caption("A project by Kwasi Amankwah Awuah, Bill Jutee, Sumesh Subramanian")
 
     uploaded_df = render_upload_section()
     df = uploaded_df if uploaded_df is not None else get_scored_data()
